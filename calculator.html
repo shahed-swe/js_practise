@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="calculator">
+        <form onsubmit="calculate()">
+            <div>
+                <input type="text" id="first_value" class="value1" value="0">
+                <input type="text" id="second_value" class="value2" value="0">
+            </div>
+            <div>
+                <select name="" id="selection">
+                    <option value="1">Summation</option>
+                    <option value="2">Subtraction</option>
+                    <option value="3">Multiplication</option>
+                    <option value="4">Division</option>
+                </select>
+            </div>
+            <button>Submit</button>
+        </form>
+        <div class="answer">Answer: <span id="answer">0</span>
+        </div>
+    </section>
+</body>
+<script src="calculator.js"></script>
+
+</html>

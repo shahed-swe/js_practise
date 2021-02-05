@@ -1,0 +1,9 @@
+body {
+    background-color: aliceblue;
+}
+
+.calculator {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
