@@ -36,3 +36,8 @@ shahedAge("Hello Buddy")
 var ashikAge = shahed.age.bind(ashik, 2020)
 ashikAge("Hello")
     // this is another example by which we can properly understand about bind method()
+    // we can do this too
+var age_cal = shahed.age.bind(ashik)
+age_cal(2020, "Hello Buddy")
+var age_cal_two = shahed.age.bind(shahed)
+age_cal_two(2020, "Hello budddy")
